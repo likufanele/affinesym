@@ -1,0 +1,11 @@
+{
+  "pipeline": "applsci-4641089-v1",
+  "dataset_sha256": "67274f52dec3b0155aec4d7d1ff31d2a92b0e9b383ab917614591cd168cc2474",
+  "lexicon_sha256": "71518ac0e3cea299b43714190b4fc3ec55acf4302eb04b9c36d148aaffbe9d81",
+  "split_seed": 42,
+  "near_duplicates": true,
+  "sklearn": "1.6.1",
+  "datasketch": "1.6.5",
+  "normalization": "NFKC-casefold-whitespace",
+  "group_split": "StratifiedGroupKFold20: test0-2, validation3-5, train6-19"
+}

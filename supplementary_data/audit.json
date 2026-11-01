@@ -1,0 +1,47 @@
+{
+  "raw_rows": 53043,
+  "valid_rows": 52681,
+  "labels": [
+    "Anxiety",
+    "Bipolar",
+    "Depression",
+    "Normal",
+    "Personality disorder",
+    "Stress",
+    "Suicidal"
+  ],
+  "original_exact": {
+    "duplicate_groups": 1403,
+    "duplicate_excess_rows": 1608,
+    "conflicting_label_groups": 18,
+    "cross_split_groups": 669,
+    "test_rows_matching_train": 328,
+    "test_rows_matching_train_or_validation": 389
+  },
+  "original_normalized": {
+    "duplicate_groups": 1414,
+    "duplicate_excess_rows": 1637,
+    "conflicting_label_groups": 22,
+    "cross_split_groups": 677,
+    "test_rows_matching_train": 335,
+    "test_rows_matching_train_or_validation": 396
+  },
+  "original_detected_groups": {
+    "duplicate_groups": 1542,
+    "duplicate_excess_rows": 1806,
+    "conflicting_label_groups": 73,
+    "cross_split_groups": 740,
+    "test_rows_matching_train": 368,
+    "test_rows_matching_train_or_validation": 437
+  },
+  "new_detected_groups": {
+    "duplicate_groups": 1542,
+    "duplicate_excess_rows": 1806,
+    "conflicting_label_groups": 73,
+    "cross_split_groups": 0,
+    "test_rows_matching_train": 0,
+    "test_rows_matching_train_or_validation": 0
+  },
+  "near_duplicate_limitation": "LSH approximate retrieval; exact Jaccard>=0.90 on word trigrams; <5-word texts checked for normalized equality only. Source/user overlap not measured without source/user IDs.",
+  "label_conflicts": "All rows and supplied labels retained; conflicting duplicates stay in one split."
+}

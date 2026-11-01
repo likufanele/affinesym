@@ -1,0 +1,8 @@
+status,test,train,validation
+Anxiety,571,2742,528
+Bipolar,445,1933,399
+Depression,2299,10756,2349
+Normal,2494,11436,2413
+Personality disorder,178,722,177
+Stress,351,1851,385
+Suicidal,1559,7445,1648

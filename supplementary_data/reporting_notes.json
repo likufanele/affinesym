@@ -1,0 +1,10 @@
+{
+  "new_experiments": "These are new grouped-split experiments, not recovery of the historical seed-42 outputs.",
+  "bootstrap": "Paired test-group resampling within each seed; intervals conditional on fitted models. Seed variability is reported separately; do not average interval bounds or p-values.",
+  "qualitative_cases": "Purposive alpha extremes within true classes, then highest remaining entropy. Not representative.",
+  "gate_intervention": "Fixed weights and features; replace alpha by 0.5 in both alpha*h and the alpha feature.",
+  "invariant_delta": "z(alpha)-z(0.5) is invariant under the stated complement transformation; not a measure of total affective reliance.",
+  "length_matching": "Within pooled token-length quantile bins, equal sample count per class. Bins without all classes omitted. Report retained n and incomplete overlap.",
+  "source_overlap": "No author/source IDs in input; duplicate screening does not establish source-disjoint or user-disjoint evaluation.",
+  "training": "3 epochs; AdamW lr=2e-5, weight_decay=.01; weighted CE; effective batch512 by accumulation. Dropout streams differ from the historical batch512 run."
+}
