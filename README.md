@@ -20,6 +20,6 @@ Dual-path DistilBERT with NRC-VAD features provides the case study, comparing te
 
 ## Reproduction
 
-See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for dependencies, data sources, commands, and experimental settings. Keep the Python files in `scripts/`. Reproducing the analyses without retraining also requires the companion `supplementary_data/` directory.
+Reproducing the analyses without retraining also requires the companion `supplementary_data/` directory.
 
 Contact: [Hiram Calvo](mailto:hcalvo@cic.ipn.mx).
